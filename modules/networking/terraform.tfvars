@@ -1,0 +1,9 @@
+resource_gn         = "app_service_group"
+location            = "West US"
+vnetname            = "myvnet01"
+vnetaddress_space   = ["192.16.0.0/16"]
+subnet_name         = "app_subnets"
+sn_address_prefixes = ["192.16.1.0/24"]
+bastion_host_name   = "bastion_client"
+bastion_subnet      = ["192.168.25.0/24"]
+nsg_name            = "my_nsg"

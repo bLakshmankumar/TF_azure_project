@@ -1,7 +1,6 @@
 variable "subscription_id" {
   type = string
   description = "this describes the sid"
-
 }
 
 variable "client_id" {

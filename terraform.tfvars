@@ -4,6 +4,10 @@ client_id       = "*******************"
 client_secret   = "************"
 tenant_id       = "*********"
 
+#Resource_group
+service_plan_name  = "staging_svc_plan_name"
+app_service_name  = "staging_app_service"
+
 # Network Resources
 resource_gn     = "app_service_group"
 location        = "West US"

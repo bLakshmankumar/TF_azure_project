@@ -1,5 +1,5 @@
-#create azure Network_Interface
-
+# Create azure Network_Interface
+# ==============================
 //resource "azurerm_network_interface" "nic" {
  // name                = "webinterface"
  // location            = azurerm_resource_group.rg1.location
